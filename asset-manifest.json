@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/aocholprofile/static/css/main.ec9c1c83.css",
-    "main.js": "/aocholprofile/static/js/main.e9a2f315.js",
+    "main.css": "/aocholprofile/static/css/main.55b764e4.css",
+    "main.js": "/aocholprofile/static/js/main.63098da5.js",
     "static/js/787.9d39a23b.chunk.js": "/aocholprofile/static/js/787.9d39a23b.chunk.js",
     "static/media/about04.png": "/aocholprofile/static/media/about04.fa7b3a72ed32b0e25bfb.png",
     "static/media/about02.png": "/aocholprofile/static/media/about02.7a3df03410ee756268ec.png",
@@ -28,12 +28,12 @@
     "static/media/git.png": "/aocholprofile/static/media/git.a54d3fa44e02f2f61e69.png",
     "static/media/skype.png": "/aocholprofile/static/media/skype.c8d7ee175da5b4c8a8ab.png",
     "index.html": "/aocholprofile/index.html",
-    "main.ec9c1c83.css.map": "/aocholprofile/static/css/main.ec9c1c83.css.map",
-    "main.e9a2f315.js.map": "/aocholprofile/static/js/main.e9a2f315.js.map",
+    "main.55b764e4.css.map": "/aocholprofile/static/css/main.55b764e4.css.map",
+    "main.63098da5.js.map": "/aocholprofile/static/js/main.63098da5.js.map",
     "787.9d39a23b.chunk.js.map": "/aocholprofile/static/js/787.9d39a23b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec9c1c83.css",
-    "static/js/main.e9a2f315.js"
+    "static/css/main.55b764e4.css",
+    "static/js/main.63098da5.js"
   ]
 }
