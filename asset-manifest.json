@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/aocholprofile/static/css/main.ccf7fdd3.css",
-    "main.js": "/aocholprofile/static/js/main.b1bc3d23.js",
+    "main.css": "/aocholprofile/static/css/main.4722ddcc.css",
+    "main.js": "/aocholprofile/static/js/main.06f5f735.js",
     "static/js/787.9d39a23b.chunk.js": "/aocholprofile/static/js/787.9d39a23b.chunk.js",
     "static/media/about04.png": "/aocholprofile/static/media/about04.fa7b3a72ed32b0e25bfb.png",
     "static/media/about02.png": "/aocholprofile/static/media/about02.7a3df03410ee756268ec.png",
@@ -11,6 +11,7 @@
     "static/media/spotify.png": "/aocholprofile/static/media/spotify.2b5e9be1eb1ab501e7cd.png",
     "static/media/profil3.png": "/aocholprofile/static/media/profil3.846499b497b753e74c87.png",
     "static/media/nb.png": "/aocholprofile/static/media/nb.98f3253e32cc67a4cb5e.png",
+    "static/media/AocholCvAltV1.pdf": "/aocholprofile/static/media/AocholCvAltV1.775b9bf1599f175a1f78.pdf",
     "static/media/profil2.png": "/aocholprofile/static/media/profil2.8a20b777f99d26adaa32.png",
     "static/media/asus.png": "/aocholprofile/static/media/asus.514bc34955008a92e09f.png",
     "static/media/adidas.png": "/aocholprofile/static/media/adidas.83df8153294f9137d308.png",
@@ -28,12 +29,12 @@
     "static/media/git.png": "/aocholprofile/static/media/git.a54d3fa44e02f2f61e69.png",
     "static/media/skype.png": "/aocholprofile/static/media/skype.c8d7ee175da5b4c8a8ab.png",
     "index.html": "/aocholprofile/index.html",
-    "main.ccf7fdd3.css.map": "/aocholprofile/static/css/main.ccf7fdd3.css.map",
-    "main.b1bc3d23.js.map": "/aocholprofile/static/js/main.b1bc3d23.js.map",
+    "main.4722ddcc.css.map": "/aocholprofile/static/css/main.4722ddcc.css.map",
+    "main.06f5f735.js.map": "/aocholprofile/static/js/main.06f5f735.js.map",
     "787.9d39a23b.chunk.js.map": "/aocholprofile/static/js/787.9d39a23b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ccf7fdd3.css",
-    "static/js/main.b1bc3d23.js"
+    "static/css/main.4722ddcc.css",
+    "static/js/main.06f5f735.js"
   ]
 }
