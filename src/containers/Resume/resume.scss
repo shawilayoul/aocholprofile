@@ -1,0 +1,128 @@
+.resum-container {
+  display: flex;
+  width:80%;
+  height: 100vh;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  .top {
+    h2 {
+      text-align: center;
+      margin-bottom: 8px;
+      color: var(--white-color);
+      &:hover {
+        color:var(--brown-color)
+      }
+    }
+    margin-bottom: 1.5rem;
+  }
+  .bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+    .blog1{
+      width: 25%;
+      height: 240px;
+      
+      h3{
+        font-size: 18px;
+      }
+      p {
+        line-height: 1.5rem;
+        font-size: 15px;
+      }
+      background-color:var(--secondary-color);
+      padding: 1rem;
+      border-radius: 8px;
+      color:(--primary-color);
+      margin-bottom: 1rem;
+      border: 1px solid var(--primary-color);
+    }
+  }
+}
+@media screen and (max-width: 900px) {
+  .resum-container {
+    height:90vh;
+    .top {
+      h2 {
+        text-align: center;
+        color:var(--white-color);
+        margin-top: 5rem;
+        font-size: 20px;
+        &:hover {
+          color:var(--brown-color);
+        }
+      }
+      h3{
+        display: none;
+      }
+      p {
+        display: none;
+      }
+    }
+    .bottom {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      height: 100%;
+      flex-wrap: wrap;
+      .blog1 {
+       width: 100%;
+       height: 20%;
+        h3{
+          font-size: 18px;
+        }
+        p{
+          font-size: 15px;
+          line-height: 1.3rem;
+        }
+        background-color:var(--secondary-color);
+        padding: 1rem;
+        border-radius: 0.5rem;
+        color: var(--primary-color);
+      }
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  .resum-container {
+    height: 90vh;
+    .top {
+      margin-bottom: 0;
+      h2 {
+        font-size: 18px;
+      }
+      h3{
+        display: none;
+      }
+      p {
+        display: none;
+      }
+    }
+    .bottom {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      flex-wrap: wrap;   
+      .blog1 {
+        width: 90%;
+        h3{
+          font-size: 14px;
+        }
+        p{
+          font-size: 11px;
+          line-height: 1rem;
+        }
+        padding: 1rem;
+        border-radius: 0.5rem;
+      }
+    }
+  }
+}

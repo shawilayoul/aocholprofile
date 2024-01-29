@@ -1,0 +1,138 @@
+.App__NavBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:var(--secondary-color);
+    height: 4rem;
+    width: 100%;
+    padding: 0 10px;
+    position: fixed;
+    z-index: 5;
+    border-bottom: solid 1px var(--primary-color);
+}
+.App__NavBar-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    div{
+        font-size: 30px;
+        font-weight: bold;
+        text-transform:capitalize;
+        height: 1rem;
+        width: 1rem;
+        border: 1px solid black;
+        padding: 1rem;
+        border-radius: 6px;
+        background-color: greenyellow;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    }
+   h2{
+    a{
+    text-transform: capitalize;
+    margin-left: 0.5rem;
+    color: greenyellow;
+    text-decoration: none;
+    }
+   }
+  
+}
+.App__navBar-links ul{
+    display: flex;
+    justify-content: center;
+    gap: 1;
+    align-items: center;
+    list-style: none;
+    padding: 10px 20px;
+    li{
+        display: flex;
+        margin-left: 3rem;
+        a{
+            text-transform: capitalize;
+            cursor: pointer;
+            text-decoration: none;
+            color: white;
+        }
+       
+    }    
+}
+.App__NavBar-menu{
+    display: none;
+    align-items: center;
+    .open-button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 3rem;
+        height: 3rem;
+        border-radius: 6px;
+        background-color: greenyellow;
+        position: absolute;
+        right: 2rem;
+        padding: 2px;
+        color:white;
+        cursor: pointer;
+        svg{
+            width: 60%;
+            height: 60%;
+        }
+
+    }
+  
+   
+}
+@media screen and (max-width: 900px) {
+    .App__NavBar{
+       display: flex;
+       flex-wrap: wrap;
+    }
+    .App__NavBar-logo{
+        div{
+            font-size: 18px;
+        }
+        h2{font-size: 15px};
+    }
+    .App__navBar-links ul{
+        display: none;
+    }
+    .menu__mobel-link{
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        background-color:var(--secondary-color);
+        padding: 2rem;
+        top: 1px;
+        z-index: 1;
+        width: 100%;
+        height: 100vh;
+        left: 0;
+     ul{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        cursor: pointer;
+        list-style: none;
+        li{
+        
+            a{
+            text-decoration: none;
+            color:var(--primary-color);
+            text-transform: uppercase;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        }
+    }}
+      .App__NavBar-menu{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+  
+}
