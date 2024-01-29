@@ -1,4 +1,4 @@
-import React, { useRef} from "react";
+import React, { useRef, useState} from "react";
 import emailjs from "@emailjs/browser";
 import { motion } from "framer-motion";
 import { FaPhone, FaFacebook } from "react-icons/fa";
@@ -16,10 +16,10 @@ const buttonVariant = {
 };
 const Contact = () => {
   const form = useRef();
-//const [btnSend, setBtnSend] = useState('send message')
- /* const handleClick = ()=>{
+const [btnSend, setBtnSend] = useState('send message')
+  const handleClick = ()=>{
    setBtnSend(btnSend ==='send message'? <p style={styles.btn}>Thank you!</p>:'send message')
-  }*/
+  }
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -40,12 +40,12 @@ const Contact = () => {
       );
     e.target.reset();
   };
-  /*
+  
   const styles = {
     btn: {
       color: 'white',
       cursor: 'pointer'
-},}*/
+},}
   return (
     <div className="Contact-Container" id="Contact">
       <div className="top-container">
@@ -83,7 +83,7 @@ const Contact = () => {
             <h3>Write me a message</h3>
             <form ref={form} onSubmit={sendEmail}>
               <div className="input">
-                <input type="text" name="user_name" placeholder="Your Name" required />
+                <input type="text" name="user_name" placeholder="Your Name"/>
               </div>
               <div className="input">
                 <input
@@ -91,11 +91,10 @@ const Contact = () => {
                   name="user_email"
                   id="email"
                   placeholder="Your Email"
-                  required
                 />
               </div>
               <div className="input">
-                <input type="text" name="subject" placeholder="Subject" required />
+                <input type="text" name="subject" placeholder="Subject"/>
               </div>
               <div className="input">
                 <textarea
@@ -104,11 +103,10 @@ const Contact = () => {
                   cols="30"
                   rows="10"
                   placeholder="Message"
-                  required
                 ></textarea>
               </div>
-              <motion.button variants={buttonVariant} whileHover="hover" >
-                Send message
+              <motion.button variants={buttonVariant} whileHover="hover" onClick={handleClick} >
+                {btnSend}
               </motion.button>
             </form>
           </div>
