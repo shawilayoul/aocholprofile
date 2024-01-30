@@ -5,7 +5,7 @@ import "react-alice-carousel/lib/alice-carousel.css";
 import images from "../../constants/images";
 import { DiCss3 } from "react-icons/di";
 import { FaGithub, FaReact, FaWordpress, FaFigma } from "react-icons/fa";
-import { SiRedux,SiMongodb } from "react-icons/si";
+import { SiRedux, SiMongodb } from "react-icons/si";
 import { BsBoxArrowInUpRight } from "react-icons/bs";
 const Projects = () => {
   return (
@@ -23,15 +23,13 @@ const Projects = () => {
                   <FaGithub />
                 </a>
               </div>
-              <div className="left-icon">
-                <BsBoxArrowInUpRight />
-              </div>
+              <div className="left-icon">{/* <BsBoxArrowInUpRight />*/}</div>
             </div>
-            <h2>My Day</h2>
+            <h3>My Day</h3>
             <p>
               MYday is a simple social media app where user can post things
-              about their daily life with photos. <br />
-              they can also delete or update thier post.
+              about their daily life with photos, they can also delete or update
+              thier post
             </p>
             <div className="box-slider">
               <AliceCarousel autoPlay autoPlayInterval="3000">
@@ -47,7 +45,7 @@ const Projects = () => {
                 <span>React</span>
               </div>
               <div className="box-footer-items">
-                <SiRedux/>
+                <SiRedux />
                 <span>Redux</span>
               </div>
               <div className="box-footer-items">
@@ -59,9 +57,9 @@ const Projects = () => {
           <div className="box">
             <div className="box-icon">
               <div className="left-icon">
-                <a href="https://github.com/shawilayoul/MyDay">
+                {/* <a href="https://github.com/shawilayoul/MyDay">
                   <FaGithub />
-                </a>
+               </a>*/}
               </div>
               <div className="left-icon">
                 <a href="https://wordpress.simplon-ara.fr/lyon/objnum23/wordpress11/">
@@ -69,10 +67,10 @@ const Projects = () => {
                 </a>
               </div>
             </div>
-            <h2>Silver Spoon</h2>
+            <h3>Silver Spoon</h3>
             <p>
               Silver spoon is a resaurant website where customers can order food
-              online or reserve a table <br /> without going to the place physically
+              online or reserve a table without going to the place physically
             </p>
             <div className="box-slider">
               <AliceCarousel autoPlay autoPlayInterval="3000">
@@ -104,15 +102,13 @@ const Projects = () => {
                   <FaGithub />
                 </a>
               </div>
-              <div className="left-icon">
-                <BsBoxArrowInUpRight />
-              </div>
+              <div className="left-icon">{/* <BsBoxArrowInUpRight />*/}</div>
             </div>
-            <h2>My Day</h2>
+            <h3>My Day</h3>
             <p>
               MYday is a simple social media app where user can post things
-              about their daily life with photos. <br />
-              they can also delete or update thier post.
+              about their daily life with photos, they can also delete or update
+              thier post
             </p>
             <div className="box-slider">
               <AliceCarousel autoPlay autoPlayInterval="3000">
@@ -128,7 +124,7 @@ const Projects = () => {
                 <span>React</span>
               </div>
               <div className="box-footer-items">
-                < SiRedux />
+                <SiRedux />
                 <span>Redux</span>
               </div>
               <div className="box-footer-items">

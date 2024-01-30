@@ -22,8 +22,7 @@ const Hero = () => {
         <div className="desc">
           <p>
             I'm a passionate junior web developer, with a mission to create
-            user-friendly <br />
-            and visually applealing websites.
+            user-friendly and visually applealing websites
             <br />
           </p>
         </div>

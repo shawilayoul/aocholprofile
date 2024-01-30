@@ -28,7 +28,7 @@
     }
     .desc {
       p {
-        line-height: 1.8rem;
+        line-height: 1.5rem;
         font-size: 18px;
         font-weight: 600;
       }
@@ -36,26 +36,33 @@
   }
   .right-side {
     position: relative;
-      .icons-items1 {
-        position: absolute;
-        top: 15rem;
-        right: 0rem;
-        margin-right: -3rem;
-        a {
-          font-size: 3rem;
-          border-radius: 50%;
-          background-color: var(--white-color);
-          cursor: pointer;
-        }
+    .icons-items1 {
+      position: absolute;
+      top: 15rem;
+      right: 0rem;
+      margin-right: -3rem;
+      a {
+        font-size: 3rem;
+        border-radius: 50%;
+        background-color: var(--white-color);
+        cursor: pointer;
       }
-      .icons-items2 {
-        a {
-          border-radius: 50%;
-          background-color: var(--white-color);
-          font-size: 3rem;
-          cursor: pointer;
-        }
+    }
+    .icons-items2 {
+      a {
+        border-radius: 50%;
+        background-color: var(--white-color);
+        font-size: 3rem;
+        cursor: pointer;
+        color: blue;
       }
+    }
+    .icons-items1 {
+      a {
+        color: blue;
+      }
+    }
+
     .img1 {
       display: flex;
       align-items: center;
@@ -82,7 +89,7 @@
     margin: 0 auto;
     justify-content: center;
     align-items: center;
-    gap: 10rem;
+    gap: 8rem;
     height: 80vh;
     .right-side {
       margin-top: 0rem;
@@ -94,17 +101,11 @@
         margin: 0;
         a {
           font-size: 2rem;
-          border-radius: 50%;
-          background-color: var(--white-color);
-          cursor: pointer;
         }
       }
       .icons-items2 {
         a {
-          border-radius: 50%;
-          background-color: var(--white-color);
           font-size: 2rem;
-          cursor: pointer;
         }
       }
       .img1 {
@@ -126,12 +127,12 @@
       gap: 1rem;
       margin-top: 0rem;
       .title {
-        font-size: 20px;
+        font-size: 25px;
         margin: 0;
       }
       .desc {
         p {
-          font-size: 18px;
+          font-size: 16px;
           line-height: 1.5rem;
         }
       }
@@ -140,8 +141,10 @@
 }
 @media screen and (max-width: 600px) {
   .container {
-    height: 45vh;
+    height: 60vh;
     display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 1.5rem;
     .right-side {
       margin-top: 9rem;
@@ -186,12 +189,12 @@
       gap: 1rem;
       margin-top: 9rem;
       .title {
-        font-size: 1rem;
+        font-size: 20px;
         margin: 0;
       }
       .desc {
         p {
-          font-size: 12px;
+          font-size: 15px;
           line-height: 1.2rem;
         }
       }
