@@ -144,7 +144,7 @@
 @media screen and (max-width: 900px) {
   .Skills-container {
     height: 100vh;
-    gap: 0rem;
+    gap: 0.5rem;
     .top {
       gap: 0;
       h2 {
@@ -157,7 +157,7 @@
         }
       }
       p {
-        font-size: 16px;
+       display: none;
       }
     }
     .bottom {
@@ -196,7 +196,8 @@
 }
 @media screen and (max-width: 600px) {
   .Skills-container {
-    height: 100vh;
+    height: 90vh;
+    gap: 0.5rem;
     .top {
       h2 {
         margin: 0;
@@ -205,7 +206,7 @@
         font-size: 18px;
       }
       p {
-        font-size: 15px;
+        display: none;
       }
     }
     .bottom {

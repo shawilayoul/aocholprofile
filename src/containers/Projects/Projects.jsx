@@ -11,7 +11,6 @@ const Projects = () => {
   return (
     <div className="projects-container">
       <div className="service-container" id="Projects">
-        <div className="project-icons"></div>
         <div className="top">
           <h2>Projects</h2>
         </div>

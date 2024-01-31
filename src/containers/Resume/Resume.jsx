@@ -3,7 +3,9 @@ import "./resume.scss";
 const Resume = () => {
   return (
     <div className="resum-container" id="Resume">
-      <h2>Resume</h2>
+      <div className="top">
+        <h2>Resume</h2>
+      </div>
       <div className="bottom">
         <div className="blog1">
           <h3>
@@ -11,8 +13,8 @@ const Resume = () => {
           </h3>
           <p>11/2023 - 12/2023</p>
           <p>
-            Acquire knowledge in UX design, the basics of the language of Swift
-            programming, application interface design mobile
+            Acquire knowledge in UX design, the basics of the language of Swift,
+            application interface design mobile
           </p>
         </div>
         <div className="blog1">
