@@ -1,6 +1,5 @@
 .service-container {
   flex-direction: column;
-  align-items: center;
   gap: 1rem;
   display: flex;
   width: 80%;
@@ -9,11 +8,8 @@
   justify-content: center;
   align-items: center;
   .top {
-    margin-top: 1.5rem;
     h2 {
-      margin-top: 1rem;
       text-align: center;
-      margin: 0;
       color: var(--white-color);
       &:hover {
         color: var(--brown-color);
@@ -87,7 +83,6 @@
 @media screen and (max-width: 900px) {
   .service-container {
     height: 90%;
-    margin-top: 1rem;
     .top {
       h2 {
         text-align: center;

@@ -3,9 +3,7 @@ import "./resume.scss";
 const Resume = () => {
   return (
     <div className="resum-container" id="Resume">
-      <div className="top">
-        <h2>Resume</h2>
-      </div>
+      <h2>Resume</h2>
       <div className="bottom">
         <div className="blog1">
           <h3>
