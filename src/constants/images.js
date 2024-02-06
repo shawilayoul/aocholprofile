@@ -8,6 +8,10 @@ import seliver2 from '../assets/sliver2.PNG'
 import seliver3 from '../assets/seliver3.PNG'
 import seliver4 from '../assets/silver4.PNG'
 import seliver5 from '../assets/seliver5e.PNG'
+import pizza1 from '../assets/pizzah1.PNG'
+import pizza2 from '../assets/pizzah2.PNG'
+import pizza3 from '../assets/pizzamenu.PNG'
+import pizza4 from '../assets/cart.png'
 export default {
   profil3,
   person2,
@@ -18,5 +22,9 @@ export default {
   seliver2,
   seliver3,
   seliver4,
-  seliver5
+  seliver5,
+  pizza1,
+  pizza2,
+  pizza3,
+  pizza4
 };
