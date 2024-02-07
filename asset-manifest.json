@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/aocholprofile/static/css/main.ab446de3.css",
-    "main.js": "/aocholprofile/static/js/main.6ad35022.js",
+    "main.js": "/aocholprofile/static/js/main.1f63063e.js",
     "static/js/787.8753db94.chunk.js": "/aocholprofile/static/js/787.8753db94.chunk.js",
     "static/media/sliver1.PNG": "/aocholprofile/static/media/sliver1.238e1fc067335523b1f8.PNG",
     "static/media/sliver2.PNG": "/aocholprofile/static/media/sliver2.e341c0c6f2d45c8d9807.PNG",
@@ -15,15 +15,15 @@
     "static/media/seliver5e.PNG": "/aocholprofile/static/media/seliver5e.93aaa45505b21d4d652c.PNG",
     "static/media/pizzah1.PNG": "/aocholprofile/static/media/pizzah1.1cf73fec250d93b28ac0.PNG",
     "static/media/profil3.png": "/aocholprofile/static/media/profil3.846499b497b753e74c87.png",
-    "static/media/mycv.pdf": "/aocholprofile/static/media/mycv.dcd5b6ae857e54db2aee.pdf",
+    "static/media/mycv.pdf": "/aocholprofile/static/media/mycv.210bf6179c4a5dee7c72.pdf",
     "static/media/silver4.PNG": "/aocholprofile/static/media/silver4.90556efb807558f6cd40.PNG",
     "index.html": "/aocholprofile/index.html",
     "main.ab446de3.css.map": "/aocholprofile/static/css/main.ab446de3.css.map",
-    "main.6ad35022.js.map": "/aocholprofile/static/js/main.6ad35022.js.map",
+    "main.1f63063e.js.map": "/aocholprofile/static/js/main.1f63063e.js.map",
     "787.8753db94.chunk.js.map": "/aocholprofile/static/js/787.8753db94.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ab446de3.css",
-    "static/js/main.6ad35022.js"
+    "static/js/main.1f63063e.js"
   ]
 }
