@@ -69,7 +69,7 @@ const Projects = () => {
             <p>
               MYday is a simple social media app where user can post things
               about their daily life with photos, they can also delete or update
-              thier post
+              thier it
             </p>
             <div className="box-slider">
               <AliceCarousel autoPlay autoPlayInterval="3000">

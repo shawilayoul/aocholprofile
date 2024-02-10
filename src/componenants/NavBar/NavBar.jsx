@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { HiMenuAlt4 } from "react-icons/hi";
+import { RxCross2 } from "react-icons/rx";
 import { useState } from "react";
 import "./Navbar.scss";
 
@@ -58,6 +59,7 @@ const NavBar = () => {
               animate={{ x: 0 }}
               transition={{ duration: 1.5 }}
             >
+               <RxCross2  className="closeX" onClick={() => setToggole(!toggle)} />
               <ul>
                 {[
                   "Home",
