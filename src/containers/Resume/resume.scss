@@ -8,7 +8,7 @@
   position: relative;
   .vertical {
     border-left: 1px solid greenyellow;
-    height: 400px;
+    height: 450px;
     position: absolute;
     left: 50%;
     margin-top: 9rem;
@@ -25,12 +25,13 @@
       align-items: center;
       justify-content: center;
       background-color: greenyellow;
-      padding: 6px;
+      padding: 15px;
       border-radius: 50%;
       color: blue;
+      font-size: 1.1rem;
     }
     .cap1, .cap3 {
-      margin-left: -3.5rem;
+      margin-left: -6rem;
     }
   }
   .top {
@@ -54,17 +55,19 @@
     .blogA {
       position: absolute;
       width: 45%;
+      left: -2rem;
     }
     .blogB {
       position: absolute;
-      right: -1rem;
-      top: 8rem;
+      right: -2rem;
+      top: 10rem;
       width: 45%;
     }
     .blogC {
       position: absolute;
-      top: 17rem;
+      top: 18rem;
       width: 45%;
+      left: -2rem;
     }
     .blog1 {
       h3 {
@@ -118,9 +121,10 @@
         padding: 6px;
         border-radius: 50%;
         color: blue;
+        font-size: 1.3rem;
       }
       .cap1, .cap3 {
-        margin-left: -3.5rem;
+        margin-left: -4rem;
       }
     }
     .top {
@@ -148,7 +152,7 @@
       }
       .blogB {
         position: absolute;
-        right: -1rem;
+        right: -2rem;
         top: 8rem;
         width: 45%;
       }
@@ -189,7 +193,7 @@
     position: relative;
     .vertical {
       border-left: 1px solid greenyellow;
-      height: 400px;
+      height: 500px;
       position: absolute;
       left: 50%;
       margin-top: 9rem;
@@ -209,9 +213,10 @@
         padding: 5px;
         border-radius: 50%;
         color: blue;
+        font-size: 1.2rem;
       }
       .cap1, .cap3 {
-        margin-left: -3.2rem;
+        margin-left: -3.5rem;
       }
     }
     .top {
@@ -238,23 +243,26 @@
       .blogA {
         position: absolute;
         width: 45%;
+        left: -30px;
         top: 0;
       }
       .blogB {
         position: absolute;
-        right: -30px;
-        top: 10rem;
+        right: -35px;
+        top: 11rem;
       }
       .blogC {
         position: absolute;
-        top: 16rem;
+        top: 18rem;
+        left: -30px;
       }
       .blog1 {
         h3 {
-          font-size: 16px;
+          font-size: 15px;
+          margin-bottom: 0rem;
         }
         p {
-          line-height: 1.1rem;
+          line-height: 1.5rem;
           font-size: 15px;
         }
         span {
