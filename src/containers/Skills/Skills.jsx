@@ -1,5 +1,6 @@
 import React from "react";
 import "./skills.scss";
+import { motion } from "framer-motion";
 const Skills = () => {
   return (
     <div className="Skills-container" id="Skills">
@@ -15,35 +16,49 @@ const Skills = () => {
             <span>95%</span>
           </div>
           <div className="skill-container">
-            <div className="skills html"></div>
+            <motion.div className="skills html"
+            animate={{width: `${95}%`}}
+            transition={{duration:2}}
+           / >
           </div>
           <div className="persantage">
             <span>CSS</span>
             <span>90%</span>
           </div>
           <div className="skill-container">
-            <div className="skills css"></div>
+            <motion.div className="skills css" 
+            animate={{width: `${90}%`}}
+            transition={{duration:2}}/>
           </div>
           <div className="persantage">
             <span>ReactJs</span>
             <span>70%</span>
           </div>
           <div className="skill-container">
-            <div className=" skills reactjs"></div>
+            <motion.div className=" skills reactjs" 
+            animate={{width: `${70}%`}}
+            transition={{duration:2}}
+            />
           </div>
           <div className="persantage">
             <span>JavaScript</span>
             <span>60%</span>
           </div>
           <div className="skill-container">
-            <div className=" skills javascript"></div>
+            <motion.div className=" skills javascript" 
+            animate={{width: `${60}%`}}
+            transition={{duration:2}}
+            />
           </div>
           <div className="persantage">
             <span>WordPress</span>
             <span>65%</span>
           </div>
           <div className="skill-container">
-            <div className="skills wordpress"></div>
+            <motion.div className="skills wordpress"
+            animate={{width: `${65}%`}}
+            transition={{duration:2}}
+            />
           </div>
         </div>
         <div className="back-ent">
@@ -53,35 +68,49 @@ const Skills = () => {
             <span>50%</span>
           </div>
           <div className="skill-container">
-            <div className="skills nodejs"></div>
+            <motion.div className="skills nodejs"
+            animate={{width: `${50}%`}}
+            transition={{duration:2}}
+            />
           </div>
           <div className="persantage">
             <span>NodeJS</span>
             <span>60%</span>
           </div>
           <div className="skill-container">
-            <div className="skills mongoDb"></div>
+            <motion.div className="skills mongoDb" 
+            animate={{width: `${60}%`}}
+            transition={{duration:2}}
+            />
           </div>
           <div className="persantage">
             <span>MongoDB</span>
             <span>50%</span>
           </div>
           <div className="skill-container">
-            <div className="skills Mysql"></div>
+            <motion.div className="skills Mysql"
+            animate={{width: `${50}%`}}
+            transition={{duration:2}}
+            />
           </div>
           <div className="persantage">
             <span>MYSQL</span>
             <span>50%</span>
           </div>
           <div className="skill-container">
-            <div className="skills javascript"></div>
+            <motion.div className="skills javascript" 
+            animate={{width: `${55}%`}}
+            transition={{duration:2}}
+            />
           </div>
           <div className="persantage">
             <span>SQL</span>
             <span>60%</span>
           </div>
           <div className="skill-container">
-            <div className="skills wordpress"></div>
+            <motion.div className="skills wordpress"
+            animate={{width: `${60}%`}}
+            transition={{duration:2}}/>
           </div>
         </div>
       </div>
