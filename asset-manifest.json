@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/aocholprofile/static/css/main.e87c66cb.css",
-    "main.js": "/aocholprofile/static/js/main.e4930355.js",
+    "main.css": "/aocholprofile/static/css/main.8f2d79f4.css",
+    "main.js": "/aocholprofile/static/js/main.808f126d.js",
     "static/js/787.8753db94.chunk.js": "/aocholprofile/static/js/787.8753db94.chunk.js",
     "static/media/sliver1.PNG": "/aocholprofile/static/media/sliver1.238e1fc067335523b1f8.PNG",
     "static/media/sliver2.PNG": "/aocholprofile/static/media/sliver2.e341c0c6f2d45c8d9807.PNG",
@@ -18,12 +18,12 @@
     "static/media/Aochol-Ayoul-Mojowok-CV.pdf": "/aocholprofile/static/media/Aochol-Ayoul-Mojowok-CV.210bf6179c4a5dee7c72.pdf",
     "static/media/silver4.PNG": "/aocholprofile/static/media/silver4.90556efb807558f6cd40.PNG",
     "index.html": "/aocholprofile/index.html",
-    "main.e87c66cb.css.map": "/aocholprofile/static/css/main.e87c66cb.css.map",
-    "main.e4930355.js.map": "/aocholprofile/static/js/main.e4930355.js.map",
+    "main.8f2d79f4.css.map": "/aocholprofile/static/css/main.8f2d79f4.css.map",
+    "main.808f126d.js.map": "/aocholprofile/static/js/main.808f126d.js.map",
     "787.8753db94.chunk.js.map": "/aocholprofile/static/js/787.8753db94.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e87c66cb.css",
-    "static/js/main.e4930355.js"
+    "static/css/main.8f2d79f4.css",
+    "static/js/main.808f126d.js"
   ]
 }
