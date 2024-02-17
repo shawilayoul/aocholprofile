@@ -120,7 +120,7 @@
       z-index: 1;
       .cap1,
       .cap2,
-      .cap3 {
+      .cap3,.cap4{
         display: flex;
         align-items: center;
         justify-content: center;
@@ -212,7 +212,7 @@
       z-index: 1;
       .cap1,
       .cap2,
-      .cap3 {
+      .cap3,.cap4 {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -256,12 +256,19 @@
       .blogB {
         position: absolute;
         right: -35px;
-        top: 11rem;
+        top: 8rem;
       }
       .blogC {
         position: absolute;
+        top: 15rem;
+        width: 45%;
+        left: -2rem;
+      }
+      .blogD {
+        position: absolute;
         top: 22rem;
-        left: -30px;
+        width: 45%;
+        right: -2rem;
       }
       .blog1 {
         h3 {
