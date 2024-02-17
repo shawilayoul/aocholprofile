@@ -20,7 +20,8 @@
     z-index: 1;
     .cap1,
     .cap2,
-    .cap3 {
+    .cap3,
+    .cap4 {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -60,14 +61,20 @@
     .blogB {
       position: absolute;
       right: -2rem;
-      top: 10rem;
+      top: 8rem;
       width: 45%;
     }
     .blogC {
       position: absolute;
-      top: 18rem;
+      top: 15rem;
       width: 45%;
       left: -2rem;
+    }
+    .blogD {
+      position: absolute;
+      top: 22rem;
+      width: 45%;
+      right: -2rem;
     }
     .blog1 {
       h3 {

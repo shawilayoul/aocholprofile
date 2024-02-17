@@ -1,7 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 import cv from "../../assets/Aochol-Ayoul-Mojowok-CV.pdf";
-import images from "../../constants/images.js";
 import {
   FaGithub,
   FaLinkedin,
@@ -20,12 +19,19 @@ const About = () => {
             <div className="infoText">
               <h2>About Me</h2>
               <p>
-                I am curious and passionate about Information Technology. I
-                started to study and learning computers from a very young age.
-                On my arrival in France, I continued to study and invest in
-                self-learning in Web development. I am exited to continue
-                growing as web developer, and to contribute my skills and
-                knowledge to new projects and teams.
+                I Am Aochol Ayoul, 28 years old, I currently live in Lyon,
+                France. <br />
+                Following a period of self-training(Udemy), followed
+                by two training courses at Simplon, Lyon, I acquired essential
+                skills in the domain of web development.
+                <br />
+                To start a work-study training course as a Full-Stack developer,
+                I am looking for a company that will allow me to put into
+                practice all the lessons that will be given to me.
+                <br />
+                My previous experiences and training have allowed me to develop
+                essential qualities such as teamwork, a sense of rigour,
+                patience and a strong taste for problem solving.
               </p>
             </div>
             <div className="right-side">
@@ -73,9 +79,9 @@ const About = () => {
               </motion.div>
             </a>
           </div>
-          <div className="left-img">
+         {/* <div className="left-img">
             <img src={images.person2} alt="about" />
-          </div>
+              </div>*/}
         </div>
       </div>
     </div>

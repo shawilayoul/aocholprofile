@@ -25,10 +25,12 @@ const Resume = () => {
         <div className="cap3">
           <FaGraduationCap />
         </div>
+        <div className="cap4">
+          <FaGraduationCap />
+        </div>
       </div>
       <div className="top">
         <h2>My Resume</h2>
-        <h3>EDUCATION</h3>
       </div>
       <div className="bottom">
         <motion.div
@@ -44,8 +46,8 @@ const Resume = () => {
           <h3>Apple Foundation Program, iOS Mobile Development</h3>
           <span>Simplon, Lyon 11/2023 - 12/2023</span>
           <p>
-            Acquire knowledge in UX design, the basics of the language of Swift,
-            application interface design mobile
+            Acquire knowledge in UX design, Swift language, application
+            interface design mobile
           </p>
         </motion.div>
         <motion.div
@@ -57,8 +59,20 @@ const Resume = () => {
           <h3>Content management system (WordPress)</h3>
           <span>Simplon, Lyon 05/2023 - 07/2023</span>
           <p>
-            Acquire programming logic and language initiation HTML, CSS, use of
-            a CMS (WordPress)
+            Acquire programming logic in HTML, CSS and use of a CMS (WordPress)
+          </p>
+        </motion.div>
+        <motion.div
+          className="blog1 blogD"
+          initial={{ x: "100vw" }}
+          animate={{ x: 0 }}
+          transition={{ delay: 0.3, duration: 1 }}
+        >
+          <h3>Bachelor in Computer Science</h3>
+          <span>Comboni college, Khartoum, Sudan 2018 - 2020</span>
+          <p>
+            Acquire the basics of the programming language JavaScript, PHP and
+            SQL
           </p>
         </motion.div>
         <motion.div
@@ -67,11 +81,11 @@ const Resume = () => {
           animate={{ x: 0 }}
           transition={{ delay: 0.3, duration: 1 }}
         >
-          <h3>Bachelor in Computer Science</h3>
-          <span>Comboni college, Khartoum, Sudan 2018 - 2020</span>
+          <h3>Courses on Udemy in a self-taught way</h3>
+          <span>Udemy, 2022-2023</span>
           <p>
-            Acquérir les bases du langage de programmation JavaScript, C++ et
-            SQL
+            Acquire the basics of the programming language JavaScript, React
+            framework and Taiwind CSS
           </p>
         </motion.div>
       </div>
