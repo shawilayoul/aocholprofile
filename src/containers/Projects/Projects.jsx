@@ -113,7 +113,7 @@ const Projects = () => {
                 <img src={images.pizza1} className="sliderimg" alt="slide" />
                 <img src={images.pizza2} className="sliderimg" alt="slide" />
                 <img src={images.pizza3} className="sliderimg" alt="slide" />
-                <img src={images.pizza4} className="sliderimg" alt="slide" />
+                <img src={images.pizza1} className="sliderimg" alt="slide" />
               </AliceCarousel>
             </div>
             <div className="box-footer">
