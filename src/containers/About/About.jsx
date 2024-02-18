@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import cv from "../../assets/Aochol-Ayoul-Mojowok-CV.pdf";
+import images from "../../constants/images";
 import {
   FaGithub,
   FaLinkedin,
@@ -21,9 +22,9 @@ const About = () => {
               <p>
                 I Am Aochol Ayoul, 28 years old, I currently live in Lyon,
                 France. <br />
-                Following a period of self-training(Udemy), followed
-                by two training courses at Simplon, Lyon, I acquired essential
-                skills in the domain of web development.
+                Following a period of self-training(Udemy), followed by two
+                training courses at Simplon, Lyon, I acquired essential skills
+                in the domain of web development.
                 <br />
                 To start a work-study training course as a Full-Stack developer,
                 I am looking for a company that will allow me to put into
@@ -79,9 +80,35 @@ const About = () => {
               </motion.div>
             </a>
           </div>
-         {/* <div className="left-img">
-            <img src={images.person2} alt="about" />
-              </div>*/}
+          <div className="left-img">
+            <div className="img1">
+              <img src={images.css} alt="about" />
+            </div>
+            <div className="img2">
+            <img src={images.sass} alt="about" />
+            </div>
+            <div className="img3">
+            <img src={images.react} alt="about" />
+            </div>
+            <div className="img4">
+            <img src={images.html} alt="about" />
+            </div>
+            <div className="img5">
+            <img src={images.figma} alt="about" />
+            </div>
+            <div className="img6">
+            <img src={images.node} alt="about" />
+            </div>
+            <div className="img7">
+            <img src={images.git} alt="about" />
+            </div>
+            <div className="img8">
+            <img src={images.redux} alt="about" />
+            </div>
+            <div className="img9">
+            <img src={images.javascript} alt="about" />
+            </div>
+          </div>
         </div>
       </div>
     </div>

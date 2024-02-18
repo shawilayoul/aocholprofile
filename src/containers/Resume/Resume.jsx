@@ -52,7 +52,7 @@ const Resume = () => {
           </motion.div>
         </div>
         <div className="blogB">
-        <motion.div
+          <motion.div
             className="blog1"
             initial={{ x: "100vw" }}
             animate={{ x: 0 }}
@@ -74,8 +74,8 @@ const Resume = () => {
             <h3>Bachelor in Computer Science</h3>
             <span>Comboni college, Khartoum, Sudan 2018 - 2020</span>
             <p>
-              Acquire the basics of the programming language JavaScript, PHP and
-              SQL
+              Acquire the basics of the programming language JavaScript,
+              PHP and SQL
             </p>
           </motion.div>
         </div>
