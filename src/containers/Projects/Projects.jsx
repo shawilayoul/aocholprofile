@@ -101,19 +101,24 @@ const Projects = () => {
                   <FaGithub />
                 </a>
               </div>
-              <div className="left-icon">{/* <BsBoxArrowInUpRight />*/}</div>
+              <div className="left-icon">
+                <a href="https://shawilayoul.github.io/RecipeSite/">
+                  <BsBoxArrowInUpRight />
+                </a>
+              </div>
             </div>
-            <h3>City Pizza</h3>
+            <h3>Superaliment</h3>
             <p>
-              City Pizza is a simple pizza ording website app where customer can
-              order one or more pizza from the menu
+              Superaliment is a simple recipe website, which provides users with
+              a list of dish recipes and cooking techniques, and they can also
+              search for their favorite recipe from the search bar.
             </p>
             <div className="box-slider">
               <AliceCarousel autoPlay autoPlayInterval="3000">
-                <img src={images.pizza1} className="sliderimg" alt="slide" />
-                <img src={images.pizza2} className="sliderimg" alt="slide" />
-                <img src={images.pizza3} className="sliderimg" alt="slide" />
-                <img src={images.pizza1} className="sliderimg" alt="slide" />
+                <img src={images.recipe1} className="sliderimg" alt="slide" />
+                <img src={images.recipe2} className="sliderimg" alt="slide" />
+                <img src={images.recipe3} className="sliderimg" alt="slide" />
+                <img src={images.recipe5} className="sliderimg" alt="slide" />
               </AliceCarousel>
             </div>
             <div className="box-footer">

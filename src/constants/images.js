@@ -21,6 +21,11 @@ import html from "../assets/html.png";
 import git from "../assets/git.png";
 import figma from "../assets/figma.png";
 import css from "../assets/css.png";
+import recipe1 from "../assets/rcipe1.PNG";
+import recipe2 from "../assets/recipe2.PNG";
+import recipe3 from "../assets/recipe3.PNG";
+import recipe4 from "../assets/recipe4.PNG";
+import recipe5 from "../assets/recipe5.PNG";
 
 export default {
   profil3,
@@ -46,4 +51,9 @@ export default {
   git,
   figma,
   css,
+  recipe1,
+  recipe2,
+  recipe3,
+  recipe4,
+  recipe5
 };
