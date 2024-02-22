@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.css": "/aocholprofile/static/css/main.a3bd4ee1.css",
-    "main.js": "/aocholprofile/static/js/main.0658c0b8.js",
+    "main.css": "/aocholprofile/static/css/main.b445d688.css",
+    "main.js": "/aocholprofile/static/js/main.3ed1fa55.js",
     "static/js/787.8753db94.chunk.js": "/aocholprofile/static/js/787.8753db94.chunk.js",
     "static/media/sliver1.PNG": "/aocholprofile/static/media/sliver1.238e1fc067335523b1f8.PNG",
     "static/media/sliver2.PNG": "/aocholprofile/static/media/sliver2.e341c0c6f2d45c8d9807.PNG",
+    "static/media/rcipe1.PNG": "/aocholprofile/static/media/rcipe1.964417ac85d9386b835b.PNG",
+    "static/media/recipe2.PNG": "/aocholprofile/static/media/recipe2.01910ddb89e31c9e4365.PNG",
     "static/media/pizzamenu.PNG": "/aocholprofile/static/media/pizzamenu.a803cb9480d356452108.PNG",
     "static/media/person2.webp": "/aocholprofile/static/media/person2.67bc29bf643b175152b3.webp",
     "static/media/memoryPost.png": "/aocholprofile/static/media/memoryPost.c8b5aac869e514577ab4.png",
+    "static/media/recipe3.PNG": "/aocholprofile/static/media/recipe3.0c75518104fe0a782773.PNG",
     "static/media/seliver3.PNG": "/aocholprofile/static/media/seliver3.17e9e513da8cf0e92fb6.PNG",
     "static/media/memoryHome.png": "/aocholprofile/static/media/memoryHome.21a099a2bf3979d38da8.png",
     "static/media/pizzah2.PNG": "/aocholprofile/static/media/pizzah2.55e03a9a587b1aca499e.PNG",
@@ -15,6 +18,8 @@
     "static/media/seliver5e.PNG": "/aocholprofile/static/media/seliver5e.93aaa45505b21d4d652c.PNG",
     "static/media/pizzah1.PNG": "/aocholprofile/static/media/pizzah1.1cf73fec250d93b28ac0.PNG",
     "static/media/profil3.png": "/aocholprofile/static/media/profil3.846499b497b753e74c87.png",
+    "static/media/recipe4.PNG": "/aocholprofile/static/media/recipe4.2d79873f20be814cf72a.PNG",
+    "static/media/recipe5.PNG": "/aocholprofile/static/media/recipe5.2d79873f20be814cf72a.PNG",
     "static/media/Aochol-Ayoul-Mojowok-CV.pdf": "/aocholprofile/static/media/Aochol-Ayoul-Mojowok-CV.210bf6179c4a5dee7c72.pdf",
     "static/media/silver4.PNG": "/aocholprofile/static/media/silver4.90556efb807558f6cd40.PNG",
     "static/media/redux.png": "/aocholprofile/static/media/redux.c9be37e0fece29c624b0.png",
@@ -24,12 +29,12 @@
     "static/media/css.png": "/aocholprofile/static/media/css.5721a3928fe43de6baf8.png",
     "static/media/git.png": "/aocholprofile/static/media/git.a54d3fa44e02f2f61e69.png",
     "index.html": "/aocholprofile/index.html",
-    "main.a3bd4ee1.css.map": "/aocholprofile/static/css/main.a3bd4ee1.css.map",
-    "main.0658c0b8.js.map": "/aocholprofile/static/js/main.0658c0b8.js.map",
+    "main.b445d688.css.map": "/aocholprofile/static/css/main.b445d688.css.map",
+    "main.3ed1fa55.js.map": "/aocholprofile/static/js/main.3ed1fa55.js.map",
     "787.8753db94.chunk.js.map": "/aocholprofile/static/js/787.8753db94.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3bd4ee1.css",
-    "static/js/main.0658c0b8.js"
+    "static/css/main.b445d688.css",
+    "static/js/main.3ed1fa55.js"
   ]
 }
