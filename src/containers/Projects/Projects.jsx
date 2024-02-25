@@ -5,7 +5,7 @@ import "react-alice-carousel/lib/alice-carousel.css";
 import images from "../../constants/images";
 import { DiCss3 } from "react-icons/di";
 import { FaGithub, FaReact, FaWordpress, FaFigma } from "react-icons/fa";
-import { SiRedux, SiMongodb, SiTailwindcss } from "react-icons/si";
+import { SiRedux, SiMongodb} from "react-icons/si";
 import { BsBoxArrowInUpRight } from "react-icons/bs";
 const Projects = () => {
   return (
@@ -97,7 +97,7 @@ const Projects = () => {
           <div className="box">
             <div className="box-icon">
               <div className="left-icon">
-                <a href="https://github.com/shawilayoul/orderingpizza">
+                <a href="https://github.com/shawilayoul/RecipeSite">
                   <FaGithub />
                 </a>
               </div>
@@ -123,16 +123,14 @@ const Projects = () => {
             </div>
             <div className="box-footer">
               <div className="box-footer-items">
-                <FaReact />
-                <span>React</span>
+                <span>JavaScript</span>
               </div>
               <div className="box-footer-items">
-                <SiRedux />
-                <span>Redux</span>
+                <span>HTML</span>
               </div>
               <div className="box-footer-items">
-                <SiTailwindcss />
-                <span>Tailwindcss</span>
+              <DiCss3/>
+                <span>Css</span>
               </div>
             </div>
           </div>
