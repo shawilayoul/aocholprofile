@@ -81,10 +81,11 @@
           height: 60px;
           border-radius: 50%;
         }
+        // top img
         .img1 {
           position: absolute;
-          right: 5rem;
-          top: -1rem;
+          left: 6rem;
+          top: 1rem;
         }
         .img2 {
           position: absolute;
@@ -96,19 +97,21 @@
           top: 4rem;
           right: 0;
         }
+        //middle img
         .img4 {
           position: absolute;
           top: 10rem;
-          left: -1rem;
+          left: 0rem;
         }
         .img5 {
           position: absolute;
           top: 15rem;
         }
+        //butimm img
         .img6 {
           position: absolute;
           top: 10rem;
-          right: -1rem;
+          right: 0rem;
         }
         .img7 {
           position: absolute;
@@ -117,13 +120,13 @@
         }
         .img8 {
           position: absolute;
-          top: 20rem;
-          left: 5rem;
+          top: 19rem;
+          left: 6rem;
         }
         .img9 {
           position: absolute;
           top: 10rem;
-          left: 4.5rem;
+          left: 6rem;
         }
       }
     }

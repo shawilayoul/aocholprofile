@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import cv from "../../assets/Aochol-Ayoul-Mojowok-CV.pdf";
+import cv from "../../assets/Aochol-Ayoul-Mojowok-Cv.pdf";
 import images from "../../constants/images";
 import {
   FaGithub,
