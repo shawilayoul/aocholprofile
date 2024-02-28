@@ -21,11 +21,11 @@ import html from "../assets/html.png";
 import git from "../assets/git.png";
 import figma from "../assets/figma.png";
 import css from "../assets/css.png";
-import recipe1 from "../assets/rcipe1.PNG";
-import recipe2 from "../assets/recipe2.PNG";
-import recipe3 from "../assets/recipe3.PNG";
-import recipe4 from "../assets/recipe4.PNG";
-import recipe5 from "../assets/recipe5.PNG";
+import nike1 from "../assets/Nike1.PNG";
+import nike2 from "../assets/Nike2.PNG";
+import nike3 from "../assets/nike3.PNG";
+import nike4 from "../assets/nike4.PNG";
+import nike5 from "../assets/nike5.PNG";
 
 export default {
   profil3,
@@ -51,9 +51,9 @@ export default {
   git,
   figma,
   css,
-  recipe1,
-  recipe2,
-  recipe3,
-  recipe4,
-  recipe5
+  nike1,
+  nike2,
+  nike3,
+  nike4,
+  nike5,
 };

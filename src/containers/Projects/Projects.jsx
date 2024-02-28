@@ -5,7 +5,7 @@ import "react-alice-carousel/lib/alice-carousel.css";
 import images from "../../constants/images";
 import { DiCss3 } from "react-icons/di";
 import { FaGithub, FaReact, FaWordpress, FaFigma } from "react-icons/fa";
-import { SiRedux, SiMongodb} from "react-icons/si";
+import { SiRedux, SiMongodb } from "react-icons/si";
 import { BsBoxArrowInUpRight } from "react-icons/bs";
 const Projects = () => {
   return (
@@ -97,28 +97,28 @@ const Projects = () => {
           <div className="box">
             <div className="box-icon">
               <div className="left-icon">
-                <a href="https://github.com/shawilayoul/RecipeSite">
+                <a href="https://github.com/shawilayoul/NikeAire">
                   <FaGithub />
                 </a>
               </div>
               <div className="left-icon">
-                <a href="https://shawilayoul.github.io/RecipeSite/">
+                <a href="https://shawilayoul.github.io/NikeAire/">
                   <BsBoxArrowInUpRight />
                 </a>
               </div>
             </div>
-            <h3>Superaliment</h3>
+            <h3>Nike Air</h3>
             <p>
-              Superaliment is a simple recipe website, which provides users with
-              a list of dish recipes and cooking techniques, and they can also
-              search for their favorite recipe from the search bar.
+              Nike is a simple shopping website, where customers can order and
+              buy shoes online and they can also add it to theirs favorite list
+              
             </p>
             <div className="box-slider">
               <AliceCarousel autoPlay autoPlayInterval="3000">
-                <img src={images.recipe1} className="sliderimg" alt="slide" />
-                <img src={images.recipe2} className="sliderimg" alt="slide" />
-                <img src={images.recipe3} className="sliderimg" alt="slide" />
-                <img src={images.recipe5} className="sliderimg" alt="slide" />
+                <img src={images.nike1} className="sliderimg" alt="slide" />
+                <img src={images.nike2} className="sliderimg" alt="slide" />
+                <img src={images.nike3} className="sliderimg" alt="slide" />
+                <img src={images.nike5} className="sliderimg" alt="slide" />
               </AliceCarousel>
             </div>
             <div className="box-footer">
@@ -129,7 +129,7 @@ const Projects = () => {
                 <span>HTML</span>
               </div>
               <div className="box-footer-items">
-              <DiCss3/>
+                <DiCss3 />
                 <span>Css</span>
               </div>
             </div>
