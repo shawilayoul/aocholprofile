@@ -12,7 +12,6 @@
     gap: 1rem;
     .title {
       cursor: pointer;
-      color: white;
       font-size: 3rem;
       font-weight: 900;
       font-style: oblique;
@@ -20,7 +19,7 @@
         Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
         sans-serif;
       span {
-        color: greenyellow;
+        color: orangered;
       }
     }
     .desc {
@@ -51,12 +50,15 @@
         background-color: var(--white-color);
         font-size: 3rem;
         cursor: pointer;
-        color: blue;
+        color:orangered;
       }
     }
     .icons-items1 {
       a {
-        color: blue;
+        color:orangered;
+        .linkedIn{
+          border-radius: 50%;
+        }
       }
     }
 

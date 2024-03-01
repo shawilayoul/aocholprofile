@@ -15,7 +15,6 @@
     gap: 0.5rem;
     h2 {
       text-align: center;
-      color: var(--white-color);
       &:hover {
         color: var(--brown-color);
       }
@@ -51,35 +50,30 @@
       .skills {
         display: flex;
         width: 100%;
-        height: 1px;
+        height: 0px;
         padding: 5px 5px;
         margin-bottom: 20px;
         border-radius: 10px;
       }
       .html {
         width: 0%;
-        background-color: greenyellow;
-        color: green;
+        background-color:orangered;
       }
       .css {
         width: 0%;
-        background-color: greenyellow;
-        color: green;
+        background-color: orangered;
       }
       .reactjs {
         width: 0%;
-        background-color: greenyellow;
-        color: green;
+        background-color: orangered;
       }
       .javascript {
         width: 0%;
-        background-color: greenyellow;
-        color: green;
+        background-color: orangered;
       }
       .wordpress {
         width: 0%;
-        background-color: greenyellow;
-        color: green;
+        background-color: orangered;
       }
     }
     .back-ent {
@@ -110,33 +104,27 @@
       }
       .nodejs {
         width: 0%;
-        background-color: greenyellow;
-        color: green;
+        background-color:orangered;
       }
       .mongoDb {
         width: 0%;
-        background-color: greenyellow;
-        color: green;
+        background-color: orangered;
       }
       .reactjs {
         width: 0%;
-        background-color: greenyellow;
-        color: green;
+        background-color: orangered;
       }
       .Mysql {
         width: 0%;
-        background-color: greenyellow;
-        color: green;
+        background-color:orangered;
       }
       .javascript {
         width: 0%;
-        background-color: greenyellow;
-        color: green;
+        background-color: orangered;
       }
       .wordpress {
         width: 0%;
-        background-color: greenyellow;
-        color: green;
+        background-color: orangered;
       }
     }
   }
@@ -150,7 +138,6 @@
       h2 {
         margin: 0;
         text-align: center;
-        color: var(--white-color);
         font-size: 20px;
         &:hover {
           color: var(--brown-color);
@@ -202,7 +189,6 @@
     .top {
       h2 {
         text-align: center;
-        color: var(--white-color);
         font-size: 18px;
       }
       p {

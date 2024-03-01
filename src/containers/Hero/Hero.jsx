@@ -53,7 +53,7 @@ const Hero = () => {
           }}
         >
           <a href="https://www.linkedin.com/in/aochol-ayoul-mojowok-654a7121a/">
-            <FaLinkedin />
+            <FaLinkedin  className="linkedIn"/>
           </a>
         </motion.div>
         <motion.div
