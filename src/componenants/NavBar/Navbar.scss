@@ -37,7 +37,7 @@
     a {
       text-transform: capitalize;
       margin-left: 0.5rem;
-      color:orangered;
+      color: white;
       text-decoration: none;
     }
   }
@@ -108,7 +108,7 @@
     top: 1px;
     z-index: 1;
     width: 100%;
-    height: 30vh;
+    height: 35vh;
     left: 0;
     .closeX {
       cursor: pointer;
@@ -131,6 +131,15 @@
           cursor: pointer;
           font-size: 14px;
         }
+      }
+      .cv button{
+        background-color: orangered;
+        border: none;
+        color: white;
+        padding: 6px 10px;
+        border-radius: 8px;
+        font-size: 14px;
+        cursor: pointer;
       }
     }
   }
@@ -166,7 +175,7 @@
     top: 1px;
     z-index: 1;
     width: 100%;
-    height: 32vh;
+    height: 38vh;
     left: 0;
     .closeX {
       cursor: pointer;

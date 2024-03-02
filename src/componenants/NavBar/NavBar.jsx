@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { HiMenuAlt4 } from "react-icons/hi";
 import { RxCross2 } from "react-icons/rx";
+import cv from "../../assets/Aochol-Ayoul-Mojowok-Cv.pdf";
 import { useState } from "react";
 import "./Navbar.scss";
 
@@ -80,6 +81,20 @@ const NavBar = () => {
                     </motion.a>
                   </li>
                 ))}
+                 <a download="" href={cv} id="cv">
+              <motion.div
+                className="cv"
+                whileHover={{
+                  scale: 1.1,
+                  originX: 0,
+                  color: "#ff7d00",
+                  duration: 1,
+                  delay: 1.5,
+                }}
+              >
+                <button> MY CV</button>
+              </motion.div>
+            </a>
               </ul>
             </motion.div>
           )}

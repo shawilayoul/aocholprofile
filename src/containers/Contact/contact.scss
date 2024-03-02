@@ -84,7 +84,9 @@
         button {
           padding: 8px 12px;
           border-radius: 10px;
-          border: 1px solid gray;
+           border: none;
+           background-color: orangered;
+           color: white;
           cursor: pointer;
         }
       }

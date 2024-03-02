@@ -65,7 +65,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-            <a download="" href={cv}>
+            <a download="" href={cv} id="cv">
               <motion.div
                 className="cv"
                 whileHover={{

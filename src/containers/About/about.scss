@@ -64,12 +64,12 @@
         }
         .cv {
           button {
-            color: var(--black-color);
+           background-color: orangered;
             padding: 10px 20px;
             border-radius: 8px;
             border: none;
             width: 8rem;
-            border: 1px solid gray;
+            color: white;
             cursor: pointer;
           }
         }
@@ -167,7 +167,6 @@
               border: none;
               font-size: 13px;
               width: 7rem;
-              border: 1px solid var(--primary-color);
               cursor: pointer;
             }
           }
@@ -210,7 +209,6 @@
               padding: 8px 0px;
               border-radius: 6px;
               width: 6rem;
-              border: 1px solid var(--primary-color);
               cursor: pointer;
               font-size: 12px;
             }
