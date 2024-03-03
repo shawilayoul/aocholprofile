@@ -64,49 +64,49 @@ const About = () => {
                   </a>
                 </div>
               </div>
+              <a download="" href={cv} id="cv">
+                <motion.div
+                  className="cv"
+                  whileHover={{
+                    scale: 1.1,
+                    originX: 0,
+                    color: "#ff7d00",
+                    duration: 1,
+                    delay: 1.5,
+                  }}
+                >
+                  <button> Download CV</button>
+                </motion.div>
+              </a>
             </div>
-            <a download="" href={cv} id="cv">
-              <motion.div
-                className="cv"
-                whileHover={{
-                  scale: 1.1,
-                  originX: 0,
-                  color: "#ff7d00",
-                  duration: 1,
-                  delay: 1.5,
-                }}
-              >
-                <button> Download CV</button>
-              </motion.div>
-            </a>
           </div>
           <div className="left-img">
             <div className="img1">
               <img src={images.css} alt="about" />
             </div>
             <div className="img2">
-            <img src={images.sass} alt="about" />
+              <img src={images.sass} alt="about" />
             </div>
             <div className="img3">
-            <img src={images.react} alt="about" />
+              <img src={images.react} alt="about" />
             </div>
             <div className="img4">
-            <img src={images.html} alt="about" />
+              <img src={images.html} alt="about" />
             </div>
             <div className="img5">
-            <img src={images.figma} alt="about" />
+              <img src={images.figma} alt="about" />
             </div>
             <div className="img6">
-            <img src={images.node} alt="about" />
+              <img src={images.node} alt="about" />
             </div>
             <div className="img7">
-            <img src={images.git} alt="about" />
+              <img src={images.git} alt="about" />
             </div>
             <div className="img8">
-            <img src={images.redux} alt="about" />
+              <img src={images.redux} alt="about" />
             </div>
             <div className="img9">
-            <img src={images.javascript} alt="about" />
+              <img src={images.javascript} alt="about" />
             </div>
           </div>
         </div>

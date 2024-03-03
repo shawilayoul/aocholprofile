@@ -40,10 +40,13 @@
           }
         }
         .right-side {
-          width: 25rem;
-          justify-content: space-between;
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 1rem;
           .icons {
-            width: 100%;
+            width: 80%;
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -64,7 +67,7 @@
         }
         .cv {
           button {
-           background-color: orangered;
+            background-color: orangered;
             padding: 10px 20px;
             border-radius: 8px;
             border: none;
@@ -144,6 +147,7 @@
     margin-top: 0;
     height: 50vh;
     margin-bottom: 5rem;
+
     .about-items {
       margin-top: 0;
       .left-side {
@@ -157,17 +161,20 @@
             }
           }
           .right-side {
-            width: 10rem;
-          }
-          .cv {
-            margin-top: 10px;
-            button {
-              padding: 8px 5px;
-              border-radius: 8px;
-              border: none;
-              font-size: 13px;
-              width: 7rem;
-              cursor: pointer;
+            gap: 0.5rem;
+            .icons {
+             gap: 1rem;
+            }
+            .cv {
+              margin-top: 10px;
+              button {
+                padding: 8px 5px;
+                border-radius: 8px;
+                border: none;
+                font-size: 13px;
+                width: 6rem;
+                cursor: pointer;
+              }
             }
           }
         }
@@ -201,18 +208,18 @@
             }
           }
           .right-side {
-            width: 10rem;
-          }
-          .cv {
-            margin-top: 0;
-            button {
-              padding: 8px 0px;
-              border-radius: 6px;
-              width: 6rem;
-              cursor: pointer;
-              font-size: 12px;
+            .cv {
+              margin-top: 0;
+              button {
+                padding: 8px 0px;
+                border-radius: 6px;
+                width: 6rem;
+                cursor: pointer;
+                font-size: 12px;
+              }
             }
           }
+          
         }
         .left-img {
           display: none;

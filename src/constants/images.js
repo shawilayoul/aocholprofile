@@ -26,6 +26,7 @@ import nike2 from "../assets/Nike2.PNG";
 import nike3 from "../assets/nike3.PNG";
 import nike4 from "../assets/nike4.PNG";
 import nike5 from "../assets/nike5.PNG";
+import aochol from "../assets/aochol.png";
 
 export default {
   profil3,
@@ -56,4 +57,5 @@ export default {
   nike3,
   nike4,
   nike5,
+  aochol
 };

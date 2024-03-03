@@ -42,11 +42,11 @@ const Skills = () => {
           </div>
           <div className="persantage">
             <span>JavaScript</span>
-            <span>60%</span>
+            <span>75%</span>
           </div>
           <div className="skill-container">
             <motion.div className=" skills javascript" 
-            animate={{width: `${60}%`}}
+            animate={{width: `${75}%`}}
             transition={{duration:2}}
             />
           </div>
@@ -65,51 +65,51 @@ const Skills = () => {
           <h3>Back-end</h3>
           <div className="persantage">
             <span>PHP</span>
-            <span>50%</span>
+            <span>65%</span>
           </div>
           <div className="skill-container">
             <motion.div className="skills nodejs"
-            animate={{width: `${50}%`}}
+            animate={{width: `${65}%`}}
             transition={{duration:2}}
             />
           </div>
           <div className="persantage">
             <span>NodeJS</span>
-            <span>60%</span>
+            <span>65%</span>
           </div>
           <div className="skill-container">
             <motion.div className="skills mongoDb" 
-            animate={{width: `${60}%`}}
+            animate={{width: `${65}%`}}
             transition={{duration:2}}
             />
           </div>
           <div className="persantage">
             <span>MongoDB</span>
-            <span>50%</span>
+            <span>65%</span>
           </div>
           <div className="skill-container">
             <motion.div className="skills Mysql"
-            animate={{width: `${50}%`}}
+            animate={{width: `${65}%`}}
             transition={{duration:2}}
             />
           </div>
           <div className="persantage">
             <span>MYSQL</span>
-            <span>50%</span>
+            <span>60%</span>
           </div>
           <div className="skill-container">
             <motion.div className="skills javascript" 
-            animate={{width: `${55}%`}}
+            animate={{width: `${60}%`}}
             transition={{duration:2}}
             />
           </div>
           <div className="persantage">
             <span>SQL</span>
-            <span>60%</span>
+            <span>70%</span>
           </div>
           <div className="skill-container">
             <motion.div className="skills wordpress"
-            animate={{width: `${60}%`}}
+            animate={{width: `${70}%`}}
             transition={{duration:2}}/>
           </div>
         </div>

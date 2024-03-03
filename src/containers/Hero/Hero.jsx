@@ -71,7 +71,7 @@ const Hero = () => {
         </motion.div>
 
         <motion.div className="img1">
-          <img src={images.person2} alt="profile" />
+          <img src={images.aochol} alt="profile" />
         </motion.div>
         <div className="img2">
           <img src={images.person2} alt="profile" />
