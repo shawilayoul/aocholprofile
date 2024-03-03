@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/aocholprofile/static/css/main.86cf6faa.css",
-    "main.js": "/aocholprofile/static/js/main.61e6139d.js",
+    "main.css": "/aocholprofile/static/css/main.f2327d0f.css",
+    "main.js": "/aocholprofile/static/js/main.7f9b8db3.js",
     "static/js/787.8753db94.chunk.js": "/aocholprofile/static/js/787.8753db94.chunk.js",
     "static/media/sliver1.PNG": "/aocholprofile/static/media/sliver1.238e1fc067335523b1f8.PNG",
     "static/media/sliver2.PNG": "/aocholprofile/static/media/sliver2.e341c0c6f2d45c8d9807.PNG",
@@ -18,6 +18,7 @@
     "static/media/nike5.PNG": "/aocholprofile/static/media/nike5.c2eaacf891c42de89274.PNG",
     "static/media/pizzah1.PNG": "/aocholprofile/static/media/pizzah1.1cf73fec250d93b28ac0.PNG",
     "static/media/Nike1.PNG": "/aocholprofile/static/media/Nike1.7eae497e507d0a890c2b.PNG",
+    "static/media/aochol.png": "/aocholprofile/static/media/aochol.0784a7317c2492a9a1d1.png",
     "static/media/Nike2.PNG": "/aocholprofile/static/media/Nike2.3f48a268ce08ba86cb3c.PNG",
     "static/media/profil3.png": "/aocholprofile/static/media/profil3.846499b497b753e74c87.png",
     "static/media/Aochol-Ayoul-Mojowok-Cv.pdf": "/aocholprofile/static/media/Aochol-Ayoul-Mojowok-Cv.044c5498236ee0fc9fbb.pdf",
@@ -29,12 +30,12 @@
     "static/media/css.png": "/aocholprofile/static/media/css.5721a3928fe43de6baf8.png",
     "static/media/git.png": "/aocholprofile/static/media/git.a54d3fa44e02f2f61e69.png",
     "index.html": "/aocholprofile/index.html",
-    "main.86cf6faa.css.map": "/aocholprofile/static/css/main.86cf6faa.css.map",
-    "main.61e6139d.js.map": "/aocholprofile/static/js/main.61e6139d.js.map",
+    "main.f2327d0f.css.map": "/aocholprofile/static/css/main.f2327d0f.css.map",
+    "main.7f9b8db3.js.map": "/aocholprofile/static/js/main.7f9b8db3.js.map",
     "787.8753db94.chunk.js.map": "/aocholprofile/static/js/787.8753db94.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.86cf6faa.css",
-    "static/js/main.61e6139d.js"
+    "static/css/main.f2327d0f.css",
+    "static/js/main.7f9b8db3.js"
   ]
 }
