@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { HiMenuAlt4 } from "react-icons/hi";
 import { RxCross2 } from "react-icons/rx";
-import cv from "../../assets/Aochol-Ayoul-Mojowok-Cv.pdf";
+import cv from "../../assets/Aochol-Ayoul-Mojowok-CV.pdf";
 import { useState } from "react";
 import "./Navbar.scss";
 

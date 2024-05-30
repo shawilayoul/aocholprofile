@@ -59,17 +59,22 @@ const Projects = () => {
           <div className="box">
             <div className="box-icon">
               <div className="left-icon">
-                <a href="https://github.com/shawilayoul/MyDay">
+                <a href="https://github.com/shawilayoul/cakeart">
                   <FaGithub />
                 </a>
               </div>
-              <div className="left-icon">{/* <BsBoxArrowInUpRight />*/}</div>
+              <div className="left-icon">
+                <a href="https://cakeart.vercel.app/">
+                  <BsBoxArrowInUpRight />
+                </a>
+              </div>
             </div>
-            <h3>My Day</h3>
+            <h3>Cake Art</h3>
             <p>
-              MYday is a simple social media app where user can post things
-              about their daily life with photos, they can also delete or update
-              it
+              the main objective for creating this website is to display the
+              variety of cakes and baked goods available, including detailed
+              descriptions, ingredients, and high-quality images to attract
+              potential customers.
             </p>
             <div className="box-slider">
               <AliceCarousel autoPlay autoPlayInterval="3000">
@@ -111,7 +116,6 @@ const Projects = () => {
             <p>
               Nike is a simple shopping website, where customers can order and
               buy shoes online and they can also add it to theirs favorite list
-              
             </p>
             <div className="box-slider">
               <AliceCarousel autoPlay autoPlayInterval="3000">
