@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/aocholprofile/static/css/main.f2327d0f.css",
-    "main.js": "/aocholprofile/static/js/main.7f9b8db3.js",
+    "main.css": "/aocholprofile/static/css/main.4737722c.css",
+    "main.js": "/aocholprofile/static/js/main.a4b513bd.js",
     "static/js/787.8753db94.chunk.js": "/aocholprofile/static/js/787.8753db94.chunk.js",
     "static/media/sliver1.PNG": "/aocholprofile/static/media/sliver1.238e1fc067335523b1f8.PNG",
     "static/media/sliver2.PNG": "/aocholprofile/static/media/sliver2.e341c0c6f2d45c8d9807.PNG",
@@ -21,7 +21,7 @@
     "static/media/aochol.png": "/aocholprofile/static/media/aochol.0784a7317c2492a9a1d1.png",
     "static/media/Nike2.PNG": "/aocholprofile/static/media/Nike2.3f48a268ce08ba86cb3c.PNG",
     "static/media/profil3.png": "/aocholprofile/static/media/profil3.846499b497b753e74c87.png",
-    "static/media/Aochol-Ayoul-Mojowok-Cv.pdf": "/aocholprofile/static/media/Aochol-Ayoul-Mojowok-Cv.044c5498236ee0fc9fbb.pdf",
+    "static/media/Aochol-Ayoul-Mojowok-CV.pdf": "/aocholprofile/static/media/Aochol-Ayoul-Mojowok-CV.044c5498236ee0fc9fbb.pdf",
     "static/media/silver4.PNG": "/aocholprofile/static/media/silver4.90556efb807558f6cd40.PNG",
     "static/media/redux.png": "/aocholprofile/static/media/redux.c9be37e0fece29c624b0.png",
     "static/media/sass.png": "/aocholprofile/static/media/sass.36e863bfbcb25c109d00.png",
@@ -30,12 +30,12 @@
     "static/media/css.png": "/aocholprofile/static/media/css.5721a3928fe43de6baf8.png",
     "static/media/git.png": "/aocholprofile/static/media/git.a54d3fa44e02f2f61e69.png",
     "index.html": "/aocholprofile/index.html",
-    "main.f2327d0f.css.map": "/aocholprofile/static/css/main.f2327d0f.css.map",
-    "main.7f9b8db3.js.map": "/aocholprofile/static/js/main.7f9b8db3.js.map",
+    "main.4737722c.css.map": "/aocholprofile/static/css/main.4737722c.css.map",
+    "main.a4b513bd.js.map": "/aocholprofile/static/js/main.a4b513bd.js.map",
     "787.8753db94.chunk.js.map": "/aocholprofile/static/js/787.8753db94.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f2327d0f.css",
-    "static/js/main.7f9b8db3.js"
+    "static/css/main.4737722c.css",
+    "static/js/main.a4b513bd.js"
   ]
 }
