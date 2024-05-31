@@ -78,10 +78,10 @@ const Projects = () => {
             </p>
             <div className="box-slider">
               <AliceCarousel autoPlay autoPlayInterval="3000">
-                <img src={images.memory1} className="sliderimg" alt="slide" />
-                <img src={images.memory2} className="sliderimg" alt="slide" />
-                <img src={images.memory3} className="sliderimg" alt="slide" />
-                <img src={images.memory1} className="sliderimg" alt="slide" />
+                <img src={images.cake1} className="sliderimg" alt="slide" />
+                <img src={images.cake2} className="sliderimg" alt="slide" />
+                <img src={images.cake3} className="sliderimg" alt="slide" />
+                <img src={images.cake4} className="sliderimg" alt="slide" />
               </AliceCarousel>
             </div>
             <div className="box-footer">
